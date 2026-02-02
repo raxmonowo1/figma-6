@@ -1,0 +1,50 @@
+section {
+  margin-top: 100px;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 30px;
+    .card {
+      width: 330px;
+      background-color: #3b3b3b;
+      border-radius: 20px;
+      height: 420px;
+      align-items: center;
+      h1 {
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 10px;
+        padding: 0 10px;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0 10px;
+      }
+      .m {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+        .n {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          h3 {
+            font-weight: 400;
+            font-size: 12px;
+            color: #858584;
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
